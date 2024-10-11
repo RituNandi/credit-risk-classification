@@ -6,6 +6,8 @@
 
 This analysis aims to leverage various machine learning techniques to train and evaluate the performance of Logistic Regression Models in identifying the creditworthiness of borrowers. The models were trained using  Logistic Regression model. The predictive variables in the model are the labels 0 (healthy loan) and 1 (high-risk loan).
 
+### Steps
+
 In the process of constructing the model, the dataset was split into features and labels, and further divided into training and testing sets.
 
 Machine Learning Model was built by instantiating a logistic regression model and training with the original training sets (X_train, y_train), fitting it to the training sets, and using it to generate predictions.
