@@ -25,4 +25,5 @@ The performance of this model was evaluated based on the balance accuracy score,
 
 Based on the analysis, the logistic regression model trained on the original data gives an 99.4% accuracy of predicting the two labels. The model is very good at predicting the healthy loans, as the f1-score is 1.00. For high-risk loans, the recall of 0.95 is strong, meaning the model is very good at identifying most of the actual high-risk loans. However, the model's performance in predicting the high-risk loans can be improved, as it only correctly predicted 87% of all actual high-risk loans, meaning that 13% of the predicted high-risk loans are actually healthy. 
 <br>
+
 Yes, I can recommend this model if the goal is to prioritize correctly identifying high-risk loans (since it has a high recall for high-risk loans). However, the company should be aware of the trade-off that some healthy loans (13% of the predicted high-risk loans) are being incorrectly flagged as high-risk. If this level of false positives is tolerable, then the model is suitable.
